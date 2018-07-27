@@ -1,0 +1,19 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  margin: 0%;
+  align-content: center;
+  padding: 0 15px;
+}
+
+.images {
+  height: 200px;
+  float: left;
+  object-fit: cover;
+}
