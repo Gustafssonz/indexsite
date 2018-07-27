@@ -1,28 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    <script src="index.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">Contact me</a>
+                </li>
+            </ul>
 
-    <h2>Welcome!</h2>
+            <ul id="nav-mobile" class="sidenav">
+                <li>
+                    <a href="#">Contact me</a>
+                </li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
 
-    <ul>
-        <li>
-            <a href="http://176.10.136.245/viasana/"> Viasana </a>
 
-        </li>
-        <li>
-            <a href="http://176.10.136.245/soundgame"> Soundgame</a>
-        </li>
-    </ul>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="header center orange-text">Welcome! </h1>
+            <div class="row center">
+                <h5 class="header col s12 light">Some fast websites for different purpose</h5>
+            </div>
+
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+
+                <!-- SOUNDGAME -->
+                <div class="col s6 m4">
+
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="images/circles.jpg" alt="" class="activator images" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">Soundgame
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title activator">Soundgame
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>Website for a keyboard-game. Press any key to make an animation and sound appear</p>
+                            <p>
+                                <a href="http://176.10.136.245/soundgame/"> Link </a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col s6 m4">
+
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="images/viasana.png" alt="" class="activator images" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">Viasana
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title activator">Viasana
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>Website for a Mattias Hallström and works as a therapist, trainer and lecturer / consultant.
+                                His profile and focus is mainly on training therapy, muscle testing and sportschinology.</p>
+                            <p>
+                                <a href="http://176.10.136.245/viasana/"> Link </a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+
+    <footer class="page-footer orange ">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Niklas Gustafsson</h5>
+                </div>
+                <div class="col l3 s12">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by
+                <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
 
 </body>
 
