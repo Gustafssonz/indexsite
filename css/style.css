@@ -17,3 +17,13 @@
   float: left;
   object-fit: cover;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
